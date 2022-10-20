@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(181, 25, 61);
+    color: white;
+}
+
+.container1 {
+    background-color: white;
+    color: rgb(181, 25, 61);
+}
+
+.btn-1, .btn-2{
+    color:  rgb(181, 25, 61);
+    background-color: rgb(185, 184, 184);
+}
+.container-footer {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.col-4 {
+background-color: grey;
+}
