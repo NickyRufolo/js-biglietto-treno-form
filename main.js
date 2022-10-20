@@ -24,11 +24,10 @@ function validation(){
         // Id dato durante la stampa
         document.getElementById(`passengernome`).innerHTML = passengerName;
         document.getElementById(`carrozza`).innerHTML = Math.floor(Math.random() * 10) +1;
-        document.getElementById(`CodiceCP`).innerHTML = Math.floor(Math.random() * 100000) +1;
-        
+        document.getElementById(`CodiceCP`).innerHTML = Math.floor(Math.random() * 100000) +1;        
         }
-
-
         
-
+        function resetta(){
+            location.reload();
+        }
 
