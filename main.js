@@ -8,8 +8,6 @@ function validation(){
         console.log(passengerName);
     let KmPrice = ValueKm * price;
         console.log(KmPrice)
-    let kmPrice = ValueKm * price;
-        console
     let discount;
         if (ValueAge == "minorenne") {
             discount = 20;
@@ -21,7 +19,7 @@ function validation(){
             discount = 0 
             document.getElementById('ticket').innerHTML = KmPrice.toFixed(2) + `$`;
         }
-        // Id dato durante la stampa
+        // stampa - Id dato durante la stampa 
         document.getElementById(`passengernome`).innerHTML = passengerName;
         document.getElementById(`carrozza`).innerHTML = Math.floor(Math.random() * 10) +1;
         document.getElementById(`CodiceCP`).innerHTML = Math.floor(Math.random() * 100000) +1;        
